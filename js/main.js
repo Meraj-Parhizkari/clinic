@@ -49,6 +49,7 @@
         margin: 45,
         dots: false,
         loop: true,
+        rtl:true,
         nav : true,
         navText : [
             '<i class="bi bi-arrow-left"></i>',
@@ -76,6 +77,7 @@
         dots: false,
         loop: true,
         nav : true,
+        rtl:true,
         navText : [
             '<i class="bi bi-arrow-left"></i>',
             '<i class="bi bi-arrow-right"></i>'
@@ -97,6 +99,7 @@
         smartSpeed: 1000,
         items: 1,
         dots: true,
+        rtl:true,
         loop: true,
     });
     
