@@ -97,8 +97,8 @@
 }
 
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
-    background-size: cover;
+    /* background: url(../img/hero.jpg) top right no-repeat; */
+    /* background-size: cover; */
 }
 
 .service-item {
@@ -243,4 +243,12 @@
 .testimonial-carousel .owl-item img {
     width: 150px;
     height: 150px;
+}
+
+.dropdown-toggle::after {
+    margin-right: .255em;
+    margin-left: unset;
+}
+.dropdown-item{
+    text-align: right;
 }
